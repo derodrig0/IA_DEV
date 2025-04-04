@@ -1,0 +1,126 @@
+/* style.css */
+
+body {
+  font-family: sans-serif;
+  margin: 15px; /* Reduzindo um pouco a margem padrão */
+}
+
+.medicamento-form {
+  border: 1px solid #ccc;
+  padding: 10px; /* Reduzindo um pouco o padding */
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.medicamento-form h2 {
+  font-size: 1.2em; /* Reduzindo o tamanho da fonte do título */
+  margin-top: 0;
+}
+
+.medicamento-form label {
+  display: block;
+  margin-bottom: 3px; /* Reduzindo um pouco a margem inferior */
+  font-weight: bold;
+  font-size: 0.9em; /* Reduzindo o tamanho da fonte da label */
+}
+
+.medicamento-form input[type="text"],
+.medicamento-form input[type="number"],
+.medicamento-form input[type="datetime-local"] {
+  width: calc(100% - 10px); /* Ajuste para a borda e padding */
+  padding: 5px;
+  margin-bottom: 8px; /* Reduzindo um pouco a margem inferior */
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 0.9em; /* Reduzindo o tamanho da fonte dos inputs */
+}
+
+button {
+  padding: 8px 12px; /* Reduzindo um pouco o padding dos botões */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em; /* Reduzindo o tamanho da fonte dos botões */
+  margin-right: 5px; /* Adicionando um pouco de espaço entre os botões */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#horarios-container {
+  margin-top: 15px; /* Reduzindo um pouco a margem superior */
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.8em; /* Reduzindo o tamanho da fonte da tabela */
+}
+
+#horarios-container th,
+#horarios-container td {
+  border: 1px solid #ccc;
+  padding: 6px; /* Reduzindo um pouco o padding das células da tabela */
+  text-align: center;
+}
+
+.medicamento-destaque {
+  font-weight: bold;
+  color: green;
+}
+
+/* Media Query para telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+  body {
+      margin: 10px; /* Reduzindo ainda mais a margem em telas menores */
+  }
+
+  .medicamento-form {
+      padding: 10px;
+  }
+
+  .medicamento-form label {
+      font-size: 0.85em;
+  }
+
+  .medicamento-form input[type="text"],
+  .medicamento-form input[type="number"],
+  .medicamento-form input[type="datetime-local"] {
+      font-size: 0.85em;
+  }
+
+  button {
+      font-size: 0.85em;
+      padding: 6px 10px;
+      margin-bottom: 5px; /* Adicionando margem inferior entre os botões em telas menores */
+  }
+
+  #horarios-container {
+      font-size: 0.75em;
+  }
+
+  #horarios-container th,
+  #horarios-container td {
+      padding: 4px;
+  }
+}
+
+/* Media Query para telas ainda menores (celulares a partir de 375px) */
+@media (max-width: 375px) {
+  h1 {
+      font-size: 1.5em; /* Reduzindo o tamanho da fonte do título principal em telas muito pequenas */
+  }
+
+  .medicamento-form h2 {
+      font-size: 1.1em;
+  }
+}
+
+/* Media Query para telas maiores (acima de 1200px - desktops grandes) */
+@media (min-width: 1200px) {
+  body {
+      max-width: 1200px; /* Limita a largura máxima do conteúdo em telas grandes */
+      margin: 20px auto; /* Centraliza o conteúdo na tela */
+  }
+}
