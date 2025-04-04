@@ -30,10 +30,10 @@ são armazenados localmente no navegador utilizando `localStorage`, permitindo q
 
 ## Estrutura de Arquivos
 
-calculador-de-remedios/
-├── index.html
-├── style.css
-└── script.js
+calculador-de-remedios/\
+├── index.html\
+├── style.css\
+└── script.js\
 └── README.md
 
 
