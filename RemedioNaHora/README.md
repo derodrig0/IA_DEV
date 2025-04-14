@@ -56,4 +56,4 @@ Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria ou 
 
 ## Autor
 
-[Rodrigo Alves da Rosa/ DeRodrigo]
+[Rodrigo Alves da Rosa / DeRodrigo]
