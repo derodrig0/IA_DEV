@@ -1,1 +1,1 @@
-# Repositorio de projetos desenvolvidos usando somente IA apenas para estudo.
+# Repositorio de projetos desenvolvidos usando somente IA, apenas para estudo.
